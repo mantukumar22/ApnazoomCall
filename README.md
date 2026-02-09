@@ -80,15 +80,16 @@ This bundles optimized static files into the dist/ folder ready for deployment.
 ### Backend
 
 express
-mongoose
-socket.io
-jsonwebtoken
-http-status-codes
+mongoose,
+socket.io,
+jsonwebtoken,
+http-status-codes.
 
 ### Frontend
 
-react
-react-router-dom
-socket.io-client
-@mui/material
+react,
+react-router-dom,
+socket.io-client,
+@mui/material.
+
 
