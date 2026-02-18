@@ -25,7 +25,7 @@
     font-size: 3rem;
 }
 
-.conferenceView { 
+.conferenceView {
     /* display: flex; */
     /* padding: 10px; */
     gap: 10px;
@@ -65,13 +65,14 @@
     gap: 10px;
     display: flex;
 }
-.rightPanelmeet video{
+
+.rightPanelmeet video {
     border-radius: 10px;
     border: 2px solid rgb(255, 255, 255);
-    box-shadow: 5px 10px 20px  #457ee9;
+    box-shadow: 5px 10px 20px #457ee9;
 }
 
-.historyhome{
+.historyhome {
     background-color: #457ee9;
     display: flex;
     flex-direction: column;
@@ -81,16 +82,68 @@
     gap: 10px;
 }
 
-.homeicon { 
+.homeicon {
     font-size: 50px !important;
     color: rgb(242, 239, 239);
-    background-color: rgb(9, 85, 185);;
+    background-color: rgb(9, 85, 185);
+    ;
     border: 5px solid rgb(13, 91, 192);
     border-radius: 50px;
-    box-shadow: 5px 5px 50px 5px  #aac4f3;
+    box-shadow: 5px 5px 50px 5px #aac4f3;
 }
-.historycard{
+
+.historycard {
     width: 50vh;
     border: 2px solid rgb(11, 77, 220) !important;
     background-color: rgb(127, 206, 255) !important;
+}
+
+@media (max-width: 612px) {
+
+    .meetVideoContainer {
+        position: relative;
+        min-height: 144vh;
+        min-width: 100vw;
+        background: rgb(0, 62, 129);
+    }
+
+    .chatRoom {
+        margin-top: 8px;
+        margin-right: 8px;
+        position: absolute;
+        height: 90vh;
+        right: -50%;
+        background: white;
+        border-radius: 10px;
+        width: 45vw;
+        box-shadow: 2px 5px 15px 10px rgba(118, 117, 117, 0.665);
+    }
+
+    .meetUserVideo {
+        position: absolute;
+        bottom: 15vh;
+        height: 30vh;
+        width: auto;
+        left: 39px;
+        border-radius: 10px;
+        border: 3px solid rgb(255, 255, 255);
+    }
+
+    .conferenceView {
+        /* display: flex; */
+        /* padding: 10px; */
+        gap: 10px;
+        width: 150%;
+        margin-left: 1rem;
+    }
+
+    .conferencevideo {
+        /* width: 100vw; */
+        background-color: black;
+        height: 72vh;
+        margin: 2vh;
+        width: 25%;
+        border-radius: 10px;
+        border: 2px solid white;
+    }
 }

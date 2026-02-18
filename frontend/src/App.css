@@ -7,49 +7,6 @@
   color: white;
 }
 
-@media (max-width: 412px) {
-
-  /* Mobile styles here */
-  .landingPageContainer {
-    width: 160vw;
-    height: 165vh;
-  }
-
-
-  .landingPageContainer nav {
-    display: flex;
-    gap: 50px;
-    align-items: center;
-
-  }
-
-  .landingPageContainer nav h2 {
-    /* font-size: 1rem; */
-    font-weight: 500;
-  }
-
-  .landingPageContainer nav .navlist {
-    /* gap: 1rem; */
-    cursor: pointer;
-    display: flex;
-
-  }
-
-  .landingMainContainer {
-    margin-top: 15vh;
-    display: flex;
-    flex-direction: column;
-    font-size: 50px;
-    justify-content: space-between;
-    /* color: #1a3459; */
-  }
-
-  .landingMainContainer h1,
-  .cover {
-    font-size: 30px;
-  }
-}
-
 .landingPageContainer nav {
   padding-inline: 1.2rem;
   padding-block: 1.6rem;
@@ -169,37 +126,6 @@
   background-color: #e3e8f2
 }
 
-@media (max-width: 412px) {
-  /* Standard Android phones */
-
-  .meetContainer {
-    display: flex;
-    flex-direction: column;
-    padding: 25px;
-    height: 105vh;
-    width: 65vh;
-    /* gap: 10vw; */
-    /* justify-content: center; */
-    background-color: #e3e8f2
-  }
-
-  .leftPanel {
-    height: 20%;
-  }
-  .navBar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-inline: 20px;
-  text-align: center;
-  color: rgb(27, 66, 207);
-  background-color: #a2bef3;
-  height: 50px;
-  width: 120%;
-  padding: 40px;
-  border-bottom: 12px solid rgb(27, 66, 207);
-}
-}
 
 .leftPanel {
   height: 100%;
@@ -241,4 +167,183 @@
 
 .navbar .enterlobby {
   display: flex !important;
+}
+
+@media (max-width: 712px) {
+
+  /* Mobile styles here */
+  .landingPageContainer {
+    width: 182vw;
+    height: 182vh;
+  }
+
+
+  .landingPageContainer nav {
+    display: flex;
+    gap: 100px;
+  }
+
+  .landingPageContainer nav h2 {
+    /* font-size: 1rem; */
+    font-weight: 500;
+  }
+
+  .landingPageContainer nav .navlist {
+    /* gap: 1rem; */
+    cursor: pointer;
+    /* display: flex; */
+
+  }
+
+  .landingMainContainer {
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    justify-content: space-between;
+    /* color: #1a3459; */
+  }
+
+  .landingMainContainer h1,
+  .cover {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 412px) {
+  /* Standard Android phones */
+
+  .meetContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    height: 105vh;
+    width: 65vh;
+    /* gap: 10vw; */
+    /* justify-content: center; */
+    background-color: #e3e8f2
+  }
+
+  .leftPanel {
+    height: 20%;
+  }
+
+  .navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+    text-align: center;
+    color: rgb(27, 66, 207);
+    background-color: #a2bef3;
+    height: 50px;
+    width: 120%;
+    padding: 40px;
+    border-bottom: 12px solid rgb(27, 66, 207);
+  }
+}
+
+@media (max-width: 612px) {
+
+  /* Mobile styles here */
+  .landingPageContainer {
+    width: 192vw;
+    height: 195vh;
+  }
+
+
+  .landingPageContainer nav {
+    display: flex;
+    gap: 100px;
+  }
+
+  .landingPageContainer nav h2 {
+    /* font-size: 1rem; */
+    font-weight: 500;
+  }
+
+  .landingPageContainer nav .navlist {
+    /* gap: 1rem; */
+    cursor: pointer;
+    /* display: flex; */
+
+  }
+
+  .landingMainContainer {
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    gap: 30vh;
+    justify-content: space-between;
+    /* color: #1a3459; */
+  }
+
+  .landingMainContainer h1,
+  .cover {
+    font-size: 30px;
+  }
+
+  .authpage img {
+    display: none;
+  }
+
+  .authpage {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    /* margin-top: 10rem; */
+    /* gap: 5vh !important; */
+  }
+
+  .navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+    text-align: center;
+    color: rgb(27, 66, 207);
+    background-color: #a2bef3;
+    height: 50px;
+    width: 135%;
+    padding: 40px;
+    border-bottom: 12px solid rgb(27, 66, 207);
+  }
+
+  .meetContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px;
+    height: 85vh;
+    width: 62vh;
+    /* gap: 10vw; */
+    /* justify-content: center; */
+    background-color: #ffffff
+  }
+
+  .rightPanel img {
+    width: 110vw;
+  }
+
+
+  .leftPanelmeet {
+    display: flex !important;
+    flex-direction: column-reverse;
+    background-color: #ffffff;
+    align-items: center;
+    align-content: center;
+    padding-top: 20vw;
+    padding-left: 30vw;
+    justify-content: space-around;
+    gap: 10rem;
+    height: 41vw;
+    font-size: 50px;
+  }
+
+  .connectbtn {
+    font-size: 50px !important;
+    border-radius: 20px !important;
+  }
 }

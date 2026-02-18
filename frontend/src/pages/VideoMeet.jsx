@@ -457,7 +457,7 @@ export default function VideoMeetComponent() {
                     <div className='.enterlobby'>
                         <h2>Enter into Lobby </h2><br />
                         <TextField id="outlined-basic" label="Username" value={username} onChange={e => setUsername(e.target.value)} variant="outlined" />
-                        <br /><br /><Button variant="contained" onClick={connect}>Connect</Button>
+                        <br /><br /><Button className="connectbtn" variant="contained" onClick={connect}>Connect</Button>
                     </div>
 
                     <div className={styles.rightPanelmeet}>

@@ -11,6 +11,7 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { AuthContext } from '../contexts/AuthContext';
 import { Snackbar } from '@mui/material';
+import "../App.css";
 
 
 const defaultTheme = createTheme();
@@ -62,7 +63,7 @@ export default function Authentication() {
 
     return (
         <ThemeProvider theme={defaultTheme}>
-            <Grid container component="main" sx={{ height: '100vh' }}>
+            <Grid container component="main" sx={{ height: '100vh' }} className='authpage'>
                 <CssBaseline />
                 <Grid
                     size={{
